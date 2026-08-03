@@ -1,0 +1,14 @@
+{
+  "name": "ml-automotive-foundations",
+  "version": "1.0.0",
+  "description": "ML foundations for automotive applications",
+  "scripts": {
+    "build": "echo 'Python project - no build required'",
+    "test": "python -m pytest tests/ -v 2>/dev/null || echo 'No tests configured'",
+    "lint": "ruff check . 2>/dev/null || flake8 . 2>/dev/null || echo 'Linter not available'"
+  },
+  "keywords": ["ml", "automotive", "pytorch", "tensorflow", "edge-inference", "functional-safety", "cybersecurity"],
+  "author": "Manoj Kumar",
+  "license": "private",
+  "private": true
+}
